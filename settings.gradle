@@ -8,4 +8,6 @@
  */
 
 rootProject.name = 'gradle-multi-project'
-include('api')
+include('api', 'core')
+include 'core'
+
